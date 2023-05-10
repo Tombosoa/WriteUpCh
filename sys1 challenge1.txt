@@ -14,8 +14,7 @@ d7 03 80 18 00 e1 cf a0 00 00 01 01 08 0a 09 3e
 3a 20 77 77 77 2e 6d 79 69 70 76 36 2e 6f 72 67
 0d 0a 41 63 63 65 70 74 3a 20 2a 2f 2a 0d 0a 0d
 0a
-
--------------
+on le decrypt:
 s àiØZÝ`@&S`*¼ºÞÀÞ AÐB3tP¼ê}¸Á×áÏ 
 	>i¹¡~ÓGET / HTTP/1.1
 Authorization: Basic Y29uZmk6ZGVudGlhbA==
@@ -24,18 +23,19 @@ Host: www.myipv6.org
 Accept: */*
 on decode: Y29uZmk6ZGVudGlhbA== et on obtient le mot de passe
 
-
 -----------------------------------------------------------------------
 TELNET:
-flux FTP pour le mot de passe
+suivre le flux FTP puis on regarde le mot de passe
+
 ----------------------------------------
 FTP authentification:
-flux TCP, pour le mot de passe
+suivre le flux TCP, pour voir le mot de passe
+
 ----------------------------------------
 twitter:
-flux HTTP
-pour voir le mot de passe
+suivre le flux HTTP pour voir le mot de passe
+
 ----------------------------------------
 bluetooth:
-
-0C:B3:19:B9:4F:C6GT-S7390G
+voir le nom du mobile et le concatené avec son adresse mac:
+0C:B3:19:B9:4F:C6GT-S7390G, on le decode avec Sha1 et obtient la réponse.
